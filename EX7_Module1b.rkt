@@ -4,7 +4,7 @@
 (require 2htdp/image)
 
 ;; Image -> Boolean
-;; produce true if the image is tall
+;; produce true if the image is tall (height is greater than width)
 
 (check-expect (tall? (rectangle 20 30 "solid" "red")) true)
 (check-expect (tall? (rectangle 20 20 "solid" "red")) false)
