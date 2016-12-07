@@ -14,6 +14,4 @@
 ;; (define (tall? img) (... img)) ;[Template]
 
 (define (tall? img)
-  (if (> (image-height img) (image-width img))
-      true
-      false))
+  (> (image-height img) (image-width img)))
