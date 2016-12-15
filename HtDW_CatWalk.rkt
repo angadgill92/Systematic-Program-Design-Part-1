@@ -2000,53 +2000,22 @@
 0 0 -1 -1 2 1 #"\0"
 0 -1 1 #"\0"
 1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 178 111 71 0
-0 0 -1 -1           0 310 0 17 3 85
+0 0 -1 -1           0 275 0 4 3 85
 (
  #";; The first three lines of this file were inserted by DrRacket. The"
  #"y record metadata"
-) 0 0 24 29 1 #"\n"
-0 0 17 3 85
+) 0 0 4 29 1 #"\n"
+0 0 4 3 85
 (
  #";; about the language level of this file in a form that our tools ca"
  #"n easily process."
-) 0 0 24 29 1 #"\n"
-0 0 26 3 7 #"#reader"
-0 0 24 3 1 #"("
-0 0 14 3 3 #"lib"
-0 0 24 3 1 #" "
-0 0 19 3 25 #"\"htdp-beginner-reader.ss\""
-0 0 24 3 1 #" "
-0 0 19 3 6 #"\"lang\""
-0 0 24 3 3 #")(("
-0 0 14 3 7 #"modname"
-0 0 24 3 1 #" "
-0 0 14 3 12 #"HtDW_CatWalk"
-0 0 24 3 3 #") ("
-0 0 14 3 19 #"read-case-sensitive"
-0 0 24 3 1 #" "
-0 0 21 3 2 #"#t"
-0 0 24 3 3 #") ("
-0 0 14 3 10 #"teachpacks"
-0 0 24 3 6 #" ()) ("
-0 0 14 3 13 #"htdp-settings"
-0 0 24 3 3 #" #("
-0 0 21 3 2 #"#t"
-0 0 24 3 1 #" "
-0 0 14 3 11 #"constructor"
-0 0 24 3 1 #" "
-0 0 14 3 17 #"repeating-decimal"
-0 0 24 3 1 #" "
-0 0 21 3 2 #"#f"
-0 0 24 3 1 #" "
-0 0 21 3 2 #"#t"
-0 0 24 3 1 #" "
-0 0 14 3 4 #"none"
-0 0 24 3 1 #" "
-0 0 21 3 2 #"#f"
-0 0 24 3 4 #" () "
-0 0 21 3 2 #"#f"
-0 0 24 3 3 #")))"
-0 0 24 29 1 #"\n"
+) 0 0 4 29 1 #"\n"
+0 0 4 3 182
+(
+ #"#reader(lib \"htdp-beginner-reader.ss\" \"lang\")((modname HtDW_CatW"
+ #"alk) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t co"
+ #"nstructor repeating-decimal #f #t none #f () #f)))"
+) 0 0 4 29 1 #"\n"
 0 9        1756 91           0 0           0 282 0 24 29 1 #"\n"
 0 0 14 3 8 #"PROBLEM:"
 0 0 24 29 1 #"\n"
@@ -4028,7 +3997,7 @@
 0 0 17 3 84
 (
  #";; Cat -> Cat                                                     ; "
- #"[type signature]"
+ #"[Type Signature]"
 ) 0 0 24 29 1 #"\n"
 0 0 17 3 77
 (
@@ -4070,10 +4039,16 @@
 0 0 24 29 1 #"\n"
 0 0 24 29 1 #"\n"
 0 0 24 29 1 #"\n"
-0 0 17 3 15 #";; Cat -> Image"
-0 0 24 29 1 #"\n"
-0 0 17 3 50 #";; render the cat at the appropriate place the MTS"
-0 0 24 29 1 #"\n"
+0 0 17 3 84
+(
+ #";; Cat -> Image                                                   ; "
+ #"[Type Signature]"
+) 0 0 24 29 1 #"\n"
+0 0 17 3 77
+(
+ #";; render the cat at the appropriate place the MTS                ; "
+ #"[Purpose]"
+) 0 0 24 29 1 #"\n"
 0 0 24 3 1 #"("
 0 0 14 3 12 #"check-expect"
 0 0 24 3 2 #" ("
