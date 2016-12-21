@@ -2078,7 +2078,7 @@
 0 -1 -1 2 1 #"\0"
 0 -1 1 #"\0"
 1.0 0 90 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 0 0 255 0 0
-0 -1 -1           0 257 0 4 3 85
+0 -1 -1           0 260 0 4 3 85
 (
  #";; The first three lines of this file were inserted by DrRacket. The"
  #"y record metadata"
@@ -2091,7 +2091,7 @@
 0 0 4 3 181
 (
  #"#reader(lib \"htdp-beginner-reader.ss\" \"lang\")((modname Compound_"
- #"P2) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t con"
+ #"P3) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t con"
  #"structor repeating-decimal #f #t none #f () #f)))"
 ) 0 0 4 29 1 #"\n"
 0 0 24 29 1 #"\n"
@@ -2115,6 +2115,13 @@
 0 0 14 3 8 #"allergic"
 0 0 24 3 35 #"))                                 "
 0 0 17 3 24 #"; [Structure Definition]"
+0 0 24 29 1 #"\n"
+0 0 24 29 1 #"\n"
+0 0 17 3 93
+(
+ #";; student is (make-student String Natural[1, 12] Boolean)          "
+ #"          ; [Type Comment"
+) 0 0 17 3 1 #"]"
 0 0 24 29 1 #"\n"
 0 0 24 29 1 #"\n"
 0 0 17 3 96
@@ -2418,8 +2425,7 @@
 0 0 17 3 31 #" (add-student-to-special-list? "
 0 0 17 3 1 #"s"
 0 0 17 3 2 #") "
-0 0 17 3 47 #"false)                                         "
-0 0 17 3 8 #"; [Stub]"
+0 0 17 3 55 #"false)                                         ; [Stub]"
 0 0 24 29 1 #"\n"
 0 0 24 29 1 #"\n"
 0 0 17 3 30 #";; <use template from student>"
